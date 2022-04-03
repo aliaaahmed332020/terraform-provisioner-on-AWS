@@ -46,7 +46,7 @@ resource "aws_security_group" "aliaa-sec-group" {
   }
   egress {
     from_port        = 0
-    to_port          = 0
+    to_port          = 1000
     protocol         = "tcp"
     cidr_blocks      = ["0.0.0.0/0"]
   }
